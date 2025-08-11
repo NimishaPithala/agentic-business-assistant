@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+#environment variables
+.env
+
+
+# --- C++ Build Files ---
+build/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# --- Data Files ---
+data/raw/
+data/uploads/
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
